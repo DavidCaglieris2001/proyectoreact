@@ -1,0 +1,11 @@
+.boton{
+    background-color: rgb(15, 23, 171);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+.boton:horver{
+    background-color: rgb(255, 255, 255);
+}
