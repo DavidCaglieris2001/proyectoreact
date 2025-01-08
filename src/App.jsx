@@ -5,9 +5,7 @@ import Secction from './componentes/secction/secction';
 import Menu from './componentes/menu/menu';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ListasCasas from './componentes/casas/ListaCasas';
-import detalleCasas from './componentes/casas/detalleCasa';
-
-
+import detalleCasas from './componentes/DetalleCasa/detalleCasa';
 
 function App() {
 
