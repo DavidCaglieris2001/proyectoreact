@@ -1,5 +1,5 @@
 import './secction.css';
-import casafoto from '../../assets/img/casaxd.png'
+import casafoto from '../../assets/img/casaxdxd.png'
 
 function Secction() {
     return (

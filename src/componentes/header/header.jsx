@@ -3,7 +3,7 @@ import './header.css';
 function Header() {
     return (
         <header className='header'>
-            <h1>Venta de casas online</h1>
+            <h1>Conta inmobiliaria</h1>
         </header>  
     );
 }
