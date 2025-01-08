@@ -1,22 +1,35 @@
-.menu{
-    background-color: black;
-}
-.menu ul{
+.menu {
+    background-color: #333;
+    padding: 10px 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    padding: 1rem;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 999;
 }
 
-.menu li{
-    color: white;
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
 }
 
 .menu a {
-    color: #fff;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s;
 }
 
-.menu a:hover{
-
-    color: blue;
+.menu a:hover {
+    color: #ff6347;
 }

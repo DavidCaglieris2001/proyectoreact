@@ -1,16 +1,16 @@
 import './App.css';
-import Header from './componentes/header/header';
+import Header from './componentes/header/Header';
 import Footer from './componentes/footer/Footer';
-import Secction from './componentes/secction/secction';
-import Menu from './componentes/menu/menu';
+import Secction from './componentes/secction/Secction';
+import Menu from './componentes/menu/Menu';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ListasCasas from './componentes/casas/ListaCasas';
-import detalleCasas from './componentes/DetalleCasa/detalleCasa';
+import DetalleCasa from './componentes/casas/DetalleCasa';
+import Login from './componentes/login-register/login';
+import Register from './componentes/login-register/register';
 
 function App() {
-
   return (
-
     <Router>
       <div className="container">
         <Header />
@@ -19,7 +19,9 @@ function App() {
           <Routes>
             <Route path='/' element={<Secction />} />
             <Route path='/casas' element={<ListasCasas />} />
-            <Route path='/detalleCasas' element={<detalleCasas />} />
+            <Route path='/DetalleCasas/:id' element={<DetalleCasa />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/register' element={<Register />} />
           </Routes>
         </main>
         <Footer />
@@ -28,4 +30,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

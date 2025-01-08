@@ -1,4 +1,18 @@
 .footer {
-    background-color: black;
-    color: rgb(253, 253, 253);
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1em;
 }

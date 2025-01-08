@@ -1,11 +1,11 @@
-import './Header.css'
+import './header.css';
 
-function Header(){
+function Header() {
     return (
         <header className='header'>
-            <h1>Bienvenidos venta de casas</h1>
+            <h1>Venta de casas online</h1>
         </header>  
-    ); 
-
+    );
 }
+
 export default Header;

@@ -1,0 +1,56 @@
+.casa-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.casa-imagen img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.casa-info {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.casa-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.casa-info p {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.casa-info .valor {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.casa-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.casa-link a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.casa-link a:hover {
+    text-decoration: underline;
+}

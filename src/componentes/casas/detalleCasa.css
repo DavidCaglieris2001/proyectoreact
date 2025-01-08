@@ -1,0 +1,32 @@
+.detalle-casa {
+    max-width: 1200px;
+    margin: 20px auto; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+
+.detalle-casa h2 {
+    font-size: 2em;
+    margin-bottom: 20px; 
+    color: #333;
+}
+
+.detalle-casa p {
+    font-size: 1.2em; 
+    margin-bottom: 10px; 
+    color: #555; 
+}
+
+.detalle-casa .casa-imagen {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.detalle-casa .casa-imagen img {
+    max-width: 100%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
